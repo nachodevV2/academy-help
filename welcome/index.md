@@ -9,3 +9,10 @@ Are you ready to start? Either fire up a code editor on your PC or use GitHub to
 ***
 
 ### Define variables in the game
+
+It's easier to have premade variables for things you'll need later in the project.
+
+```lua
+local player = game.Players.LocalPlayer - Defines the user
+local rstorage = game.ReplicatedStorage -- Defines the ReplicatedStorage
+```
